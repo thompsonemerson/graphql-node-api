@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Stephen Curry",
+    "position": "Guard",
+    "email": "curry@email.com"
+  },
+  {
+    "id": 2,
+    "name": "Kevin Durant",
+    "position": "Forward",
+    "email": "durant@email.com"
+  },
+  {
+    "id": 3,
+    "name": "Klay Thompson",
+    "position": "Guard",
+    "email": "thompson@email.com"
+  }
+]
