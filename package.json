@@ -7,7 +7,7 @@
     "serve": "NODE_ENV=development node_modules/.bin/nodemon --delay 3 .",
     "gulp": "node_modules/.bin/gulp",
     "start": "npm run gulp && node .",
-    "dev": "node_modules/.bin/parallelshell 'npm run gulp -- watch' 'npm run serve'"
+    "dev": "node_modules/.bin/parallelshell 'node_modules/.bin/gulp -- watch' 'npm run serve'"
   },
   "keywords": [
     "api",
@@ -22,10 +22,10 @@
     "@types/express-graphql": "0.0.34",
     "@types/graphql": "0.11.5",
     "@types/node": "8.0.34",
-    "gulp": "3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean": "0.3.2",
-    "gulp-typescript": "3.2.2",
-    "nodemon": "1.12.0",
+    "gulp-typescript": "^5.0.1",
+    "nodemon": "^1.19.1",
     "parallelshell": "^3.0.2",
     "typescript": "2.5.3"
   },
